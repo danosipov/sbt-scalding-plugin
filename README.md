@@ -1,4 +1,4 @@
-An autoplugin for SBT, enabling Scalding projects. Brings in necessary dependencies, configures assembly settings, enables local execution.
+An autoplugin for [SBT](http://www.scala-sbt.org/), enabling [Scalding](https://github.com/twitter/scalding) projects. Brings in necessary dependencies, configures assembly settings, enables local execution.
 
 Configuration
 =============
