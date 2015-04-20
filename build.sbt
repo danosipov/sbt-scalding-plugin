@@ -28,5 +28,6 @@ lazy val root = (project in file(".")).
     licenses += ("Apache-2.0", url("https://www.apache.org/licenses/LICENSE-2.0.html")),
     publishMavenStyle := false,
     repository in bintray := "sbt-plugins",
+    vcsUrl in bintray := Some("git@github.com:danosipov/sbt-scalding-plugin"),
     bintrayOrganization in bintray := None
   )
