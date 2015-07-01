@@ -141,6 +141,9 @@ object ScaldingPlugin extends AutoPlugin {
     val algebird_core     = "com.twitter"    %% "algebird-core"     % Version.Algebird
     val algebird_util     = "com.twitter"    %% "algebird-util"     % Version.Algebird
 
+    val scalding_parquet_scrooge  = "com.twitter"    %% "scalding-parquet-scrooge"  % Version.Scalding
+    val scalding_serialization_macros  = "com.twitter"    %% "scalding-serialization-macros"  % Version.Scalding
+
     val hadoop_core       = "org.apache.hadoop" % "hadoop-core"     % Version.Hadoop % "provided"
 
     val scalaTest         = "org.scalatest"    %% "scalatest"       % Version.ScalaTest %  "test"
