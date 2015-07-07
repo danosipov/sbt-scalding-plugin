@@ -22,7 +22,7 @@ object ScaldingPlugin extends AutoPlugin {
         scalding_core,
         scalding_date,
         scalding_json,
-        scalding_repl,
+        //scalding_repl, -- Hasn't been deployed to Maven for 2.11
         algebird_core,
         algebird_util,
         hadoop_core,
