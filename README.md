@@ -16,6 +16,11 @@ addSbtPlugin("com.danosipov" % "sbt-scalding-plugin" % "1.0.3")
 enablePlugins(ScaldingPlugin)
 ```
 
+* Make sure the project is configured for the latest version of sbt. in project/build.properties add:
+```
+sbt.version=0.13.8
+```
+
 Features
 ========
 
