@@ -6,7 +6,7 @@ sbtPlugin := true
 
 scalaVersion := "2.10.5"
 
-version := "1.0.4"
+version := "1.0.5"
 
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.13.0")
 

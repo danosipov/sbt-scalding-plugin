@@ -117,8 +117,8 @@ object ScaldingPlugin extends AutoPlugin {
 
   object Dependency {
     object Version {
-      val Scalding  = "0.15.0"
-      val Algebird  = "0.10.2"
+      val Scalding  = "0.16.0"
+      val Algebird  = "0.12.0"
       val Hadoop    = "1.0.3"
       val ScalaTest = "2.2.4"
     }
